@@ -1,0 +1,17 @@
+{
+  "name": "lucille",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Will Hayworth <whayworth@gmail.com>",
+  "description": "a simple mocking proxy",
+  "scripts": {
+    "start": "node app.js",
+    "test": "",
+    "predeploy": "echo This will be run before deploying the app",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
+  "dependencies" : {
+    "underscore"   :  "*",
+    "http-proxy"   :  "*"
+  }
+}
